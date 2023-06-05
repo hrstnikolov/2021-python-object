@@ -10,7 +10,7 @@ class Hero:
         self.health = health
         self.damage = damage
 
-    def battle(self, enemy_hero):
+    def battle(self, enemy_hero: 'Hero'):
         if enemy_hero.username == self.username:
             raise Exception("You cannot fight yourself")
 
