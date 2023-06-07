@@ -1,7 +1,7 @@
 import unittest
 import unittest.mock
 
-from utils import my_concat
+from demos.mocking.utils import my_concat
 
 
 class SampleTests(unittest.TestCase):
@@ -10,7 +10,7 @@ class SampleTests(unittest.TestCase):
         expected_output = 'hellothere'
         actual_output = my_concat(string_values)
         self.assertEqual(expected_output, actual_output)
-    @unittest.mock.patch()
+
     def test_my_concat__when_ints__expect_TypeError(self):
         int_values = [3, 5]
         with self.assertRaises(TypeError) as context:

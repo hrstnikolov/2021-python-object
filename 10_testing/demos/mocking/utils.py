@@ -1,6 +1,6 @@
 from typing import List
 
-from validators import validate_type, TypeValidator
+from demos.mocking.validators import validate_type, TypeValidator
 
 
 def my_concat(string_values: List[str]) -> str:

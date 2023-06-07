@@ -1,5 +1,6 @@
-from person import Person
 import unittest
+
+from demos.person.person import Person
 
 
 class PersonTests(unittest.TestCase):

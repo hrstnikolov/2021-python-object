@@ -12,7 +12,7 @@ class SampleTests(TestCase):
 
     @classmethod
     def setUpClass(cls):
-        print('Do for ALL tests...')
+        print('Do for ALL mocking...')
     
     def test_my_sum__when_numbers__expect_to_be_equal(self):
         numbers = [1, 2, 3, 4]

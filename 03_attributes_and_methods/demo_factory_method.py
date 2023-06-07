@@ -27,7 +27,7 @@ input2 = ('DV', ['low temp operation', 'pressure cycling', 'conducted immunity']
 input3 = '''
 {
     "title":"CM PV",
-    "tests": [
+    "mocking": [
         "zxv",
         "asda"
     ]
